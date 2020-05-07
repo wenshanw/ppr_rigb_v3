@@ -78,7 +78,7 @@
 
 
 
-\title{=enter title here=}
+\title{Greenland surface melt dominated by solar and sensible heating}
 
 %% ------------------------------------------------------------------------ %%
 %
@@ -99,15 +99,15 @@
 % Example: \authors{A. B. Author\affil{1}\thanks{Current address, Antartica}, B. C. Author\affil{2,3}, and D. E.
 % Author\affil{3,4}\thanks{Also funded by Monsanto.}}
 
-\authors{=list all authors here=}
-
+\authors{Wenshan Wang\affil{1}, Charles S. Zender\affil{1}, Dirk van As\affil{2}, Robert S. Fausto\affil{2}, Matthew K. Laffin\affil{1}}
 
 % \affiliation{1}{First Affiliation}
 % \affiliation{2}{Second Affiliation}
 % \affiliation{3}{Third Affiliation}
 % \affiliation{4}{Fourth Affiliation}
 
-\affiliation{=number=}{=Affiliation Address=}
+\affiliation{1}{Department of Earth System Science, University of California, Irvine, California, USA}%
+\affiliation{2}{Geological Survey of Denmark and Greenland (GEUS), Copenhagen, Denmark}%
 %(repeat as many times as is necessary)
 
 %% Corresponding Author:
@@ -120,7 +120,7 @@
 
 % Example: \correspondingauthor{First and Last Name}{email@address.edu}
 
-\correspondingauthor{=name=}{=email address=}
+\correspondingauthor{Wenshan Wang}{wenshanw@uci.edu}
 
 %% Keypoints, final entry on title page.
 
@@ -163,46 +163,422 @@
 %% \begin{abstract} starts the second page
 
 \begin{abstract}
-[ enter your Abstract here ]
+The Greenland Ice Sheet is 
+the primary source of global barystatic sea-level rise, 
+and at least half of its total current mass
+loss is attributed to surface melt. Here we use in-situ measurements
+from 23 automatic weather stations on the ice sheet to identify the
+dominant processes that drive all melt. Attention generally focuses on
+large melt events impacting Greenland ice sheet mass loss, yet we show
+that these anomalous events contribute only 2\% to
+total surface mass loss. ~After filtering out the seasonal and diurnal
+cycles of surface melt driven by net shortwave radiation, we find that
+melt variability is 30\% driven by sensible heat exchange, 27\% by
+shortwave radiation, 14\% by latent heat, and 12\% by~longwave
+radiation, the latter two of which have been deemed more influential in
+previous studies. Sensible heat exchange and shortwave radiation
+correlate with the occurrence of dry and fast downslope winds. These
+katabatic winds enhance vertical mixing that reduces the
+temperature inversion and increases sensible heating of the surface. The
+concomitant low humidity and clear skies are associated with increased
+solar heating. Although katabatic winds are stronger in winter,
+wind-driven surface melt dominates the Greenland ice sheet surface melt
+on synoptic timescales in summer.
 \end{abstract}
 
 \section*{Plain Language Summary}
 [ enter your Plain Language Summary here or delete this section]
 
 
-%% ------------------------------------------------------------------------ %%
-%
-%  TEXT
-%
-%% ------------------------------------------------------------------------ %%
+\section{Introduction}
+Surface melt and subsequent runoff, 
+responsible for about 60\% of the total mass loss of 
+the Greenland Ice Sheet \cite{VanDenBroeke2016}, 
+have accelerated since the mid-1990s \cite{Fettweis2017}, 
+making Greenland the primary cryospheric source 
+of sea-level rise \cite{VanDenBroeke2016}, 
+and a possible cause for the slowdown of 
+the thermohaline circulation in the North Atlantic Ocean \cite{Rahmstorf2015}.
+Massive melt events, 
+such as two ice-sheet-wide melt episodes in July 2012, 
+drew considerable attention from 
+the public and scientific communities \cite{Bennartz2013, Tedesco2013, Hanna2014, Neff2014, Fausto2016a}. 
+However, melt during these two episodes only contributed 12-15\% of 
+total surface melt in 2012 \cite{Fausto2016a}. 
+To investigate the origins of Greenland ice sheet surface melt 
+throughout the entire melt season, 
+we use in-situ measurements of surface ablation, radiation, 
+and meteorology from 23 automatic weather stations (AWS) 
+in the ablation zone \cite{VanAs2011b} (Fig. S1 and Table S1).
 
-%%% Suggested section heads:
-% \section{Introduction}
-%
-% The main text should start with an introduction. Except for short
-% manuscripts (such as comments and replies), the text should be divided
-% into sections, each with its own heading.
+Net shortwave and longwave radiation largely 
+determine the seasonal and inter-annual variability 
+of surface melt 
+\cite{VandeWal2005, VandenBroeke2008a, KuipersMunneke2018}.
+Shortwave radiation provides the largest surface energy flux 
+in the ablation zone \cite{VandenBroeke2008a}. 
+Part of the acceleration of surface melt from 1995-2009 
+is attributed to enhanced solar heating caused 
+by reduced mid to high-level cloud cover 
+\cite{Hofer2017, Ding2017}. 
+On the other hand, longwave heating associated with 
+increasing low-level clouds and moisture levels 
+might be responsible for increased surface melt 
+at Summit and along the western slope of 
+the Greenland ice sheet 
+\cite{Bennartz2013, Miller2015, VanTricht2016, Mattingly2018}. 
 
-% Headings should be sentence fragments and do not begin with a
-% lowercase letter or number. Examples of good headings are:
+Non-radiative energy fluxes (such as turbulent heat fluxes) 
+also play a crucial role in surface melt 
+in the low-elevation ablation zone \cite{VandenBroeke2011, KuipersMunneke2018a} 
+and during massive melt events \cite{Fausto2016a}. 
+In-situ measurements reveal that 
+non-radiative energy fluxes dominated melt variability 
+along the western slopes of the Greenland ice sheet 
+during the wide-spread advection-forced melt episodes 
+in July 2012 \cite{Fausto2016a}. 
+In the lower ablation zone, 
+advection of relatively warm air over the nearby tundra 
+generally dictates surface melting 
+due to increased turbulent heat exchange 
+in summer \cite{VandenBroeke2011, KuipersMunneke2018a}. 
+Katabatic winds, which predominate over the Greenland ice sheet 
+in both winter and summer, 
+also enhances turbulent heat exchange 
+by enhancing vertical mixing 
+in the stable Arctic boundary layer \cite{VandenBroeke2009a}. 
 
-% \section{Materials and Methods}
-% Here is text on Materials and Methods.
-%
-% \subsection{A descriptive heading about methods}
-% More about Methods.
-%
-% \section{Data} (Or section title might be a descriptive heading about data)
-%
-% \section{Results} (Or section title might be a descriptive heading about the
-% results)
-%
-% \section{Conclusions}
+\section{Data and Methods}
+\subsection{Automatic Weather Stations}
+We use AWS from 
+the Programme for Monitoring of the Greenland Ice Sheet (PROMICE) \cite{Fausto2019}, 
+which provides hourly measurements of meteorology, ablation, 
+and four-component radiation. 
+The network established in 2007. 
+By 2018, it has operated 26 stations ($\sim 228$ station-years of raw data) 
+in all eight drainage basins in the ablation zone of Greenland. 
+The stations are usually arranged in pairs with 
+one station close to the equilibrium line 
+(station names suffixed with U for upper) 
+and the other deeper into the ablation zone 
+(station names suffixed with L for lower). 
+In this study, we use 23 stations 
+that are on ice and have at least two complete melt seasons of 
+valid measurements (a total of $\sim 215$ station-years; Table S1). 
+The meteorological and radiative data have gone through 
+rigorous data quality control using the same methods \cite{Wang2016, Wang2018, Wang2018a}. 
+
+\subsection{Surface Ablation Rate}
+Surface ablation rate is estimated using 
+surface height changes measured 
+by sonic rangers and pressure transducer assembly (PTA) \cite{Fausto2012a}.
+Every PROMICE AWS is equipped with two sonic rangers 
+and one PTA to measure the ablation and/or accumulation of 
+snow, ice, and both. 
+The sonic ranger on the main station stake that 
+stands on ice surface sinks as ice melts, 
+and therefore only measures the snow height changes 
+(i.e., snow ablation and accumulation). 
+The sonic ranger on a separate stake 
+drilled into ice measures surface height changes caused by 
+both snow and ice. 
+A PTA consists of a pressure transducer drilled into 
+ice and a bladder above ground connected through 
+a hose filled with antifreeze liquid. 
+It converts the pressure changes into surface ice ablation 
+(not recording ice accumulation). 
+We use surface ablation rates estimated from 
+these three instruments to cross-validate and fill missing values. 
+Although the manufacturing uncertainty of sonic rangers 
+($\sim 0.010\,m$) is smaller than that of a PTA 
+($\sim 0.025\,m$), 
+the former degrades in the field 
+due to repeating cycles of riming \cite{Fausto2012a}. 
+Therefore, when ice ablation rates estimated from 
+sonic rangers and PTA conflict, 
+we trust PTA, 
+unless albedo and net energy fluxes suggest otherwise. 
+To obtain a robust value, 
+we estimate the net ablation in the past 24 hours at every hour. 
+To remove the long-spike noises from 
+sonic ranger measurements, 
+we calculate a 24-hr moving median of the 24-hr net ablation rate. 
+To keep a consistent timescale, 
+we apply a 24-hr moving average on 
+all other measurements except wind direction, 
+which filters out diurnal cycles. 
+We define the onset (refreeze) date of melt seasons 
+as the first (last) day of 168 consecutive hours (7 days) 
+with 24-hr ablation larger than $0.01\, m$
+and air temperature higher than $-5\mathrm{^{\circ}C}$
+(air temperature is usually higher than surface temperature). 
+In this way, we do not include short-time ablation 
+beyond these dates since this study 
+focuses on common melt rather than extreme melt events. 
+
+\subsection{Sensible and Latent Heat Fluxes}
+Sensible and latent heat fluxes 
+from PROMICE are estimated using the bulk method, 
+the Monin-Obukhov similarity theory (MOST) \cite{VanAs2005, VanAs2011a}. 
+The roughness lengths are assumed to be constant 
+for snow ($5 \times 10^{-4} \, m$) 
+and ice ($5 \times 10^{-3} \, m$) \cite{Fausto2016a} 
+since the roughness elements of the snow/ice surface 
+do not change significantly \cite{VanAs2005}. 
+Nevertheless, assumptions in the bulk method 
+introduce considerable uncertainties in the magnitude of 
+estimated sensible and latent heat fluxes \cite{VandenBroeke2009a}. 
+This is another reason we use correlation rather than 
+magnitude to quantify contributions of 
+component energy fluxes to surface ablation. 
+Although estimated using temperature and wind speed, 
+sensible heat has a better correlation with 
+measured surface ablation than either of these two. 
+
+\subsection{Moving correlation}
+To attribute melt-causation to a specific component energy flux, 
+we use 168-hr (7-day) moving correlation 
+instead of one correlation coefficient throughout 
+the whole melt season 
+since the dominant energy flux could alternate between 
+shortwave radiation, longwave radiation, sensible heat, 
+and latent heat on synoptic timescales ($\sim 7$ days) 
+depending on the leading physical processes. 
+We test window lengths from 120 hours (5 days) to 264 hours (11 days). 
+%- ww: need to change here --> no mentions of conclusion
+All lengths lead to the same conclusion 
+that shortwave radiation and sensible heat fluxes 
+dominate the surface ablation on sub-seasonal timescales 
+while a 7-day window yields the highest number of 
+significant correlation coefficients. 
 
 
-\section{= enter section title =}
-%Text here ===>>>
+\section{In-situ Measurements of Surface Melt}
+While satellites can monitor the surface melt extent of 
+the Greenland ice sheet with broad spatial coverage, 
+in-situ measurements are the only way to verify the surface mass balance.
+Previous studies using in-situ measurements 
+often focus on regions of Greenland \cite{VanAs2011a, VandeWal2005, VandenBroeke2011}
+or specific years \cite{Fausto2016a}. 
+In this study, we estimate in-situ surface mass loss 
+in eight ablation regions 
+around the entire Greenland Ice Sheet, 
+with decade-long records at some sites 
+(Fig. 1a and snow-only ablation in Fig. S2). 
+Similar to the spatial distribution of 
+surface temperature and melt frequency \cite{Mernild2011, Hall2013}, 
+annual surface ablation increases towards the south and west, 
+and lower elevations of the Greenland ice sheet. 
+The latitudinal gradient of annual net ablation 
+based on these stations is $0.32 \pm 0.21\,m$ 
+per year per degree of latitude (in water equivalent, w.e.) 
+along the western ice sheet margin, and $0.10 \pm 0.06\,m\,w.e.\,yr^{-1}\,degree^{-1}$ along the eastern margin, 
+using the lowest-elevation stations. 
+The downslope net ablation gradient 
+is $4.72 \pm 2.75 \,m\,w.e.\, yr^{-1}\, km^{-1}$ 
+in the west and $3.40 \pm 1.62 \,m\,w.e.\, yr^{-1}\, km^{-1}$ in the east.
+Contrary to the case for melt extent \cite{Nghiem2012}, 
+the year 2012 was not record-setting at all stations. 
+Instead, for stations south of KAN ($\sim 67\mathrm{^{\circ} N}$), 
+2010 is the year with the largest net ice ablation. 
+The massive melt events in terms of extent 
+are related to synoptic episodes in summer, 
+whereas net ablation better reflects 
+the ice-atmosphere energy exchange over all seasons \cite{Valisuo2018}. 
 
+Although massive melt events abruptly
+alter surface conditions and generate large surface mass loss 
+in a short amount of time \cite{Fausto2016a}, 
+they do not occur very often \cite{Nghiem2012}.
+To compare contributions from melt events with different melt rates, 
+we partition the total surface mass loss by 
+deviations in daily melt rate from the mean daily melt rate 
+for each station on that day of the year (Fig.~1b). 
+Days with ablation rates within one standard deviation of 
+the mean daily ablation rate contribute roughly 70\% to annual net ablation.
+Contributions from large melt events exceeding 
+three standard deviations above the average, 
+such as the two in July 2012, are on average minimal (2\%). 
+To understand the causes for the majority of surface mass loss, 
+we must examine common, high-frequency, low melt-rate events.
+
+Surface ablation has a clear seasonal cycle peaking in July, 
+as a result of the seasonal cycle in 
+the surface energy balance \cite{VandenBroeke2011}. 
+To illustrate the seasonal ablation cycles at the stations, 
+we calculate 31-day moving average ablation 
+in different latitudinal zones (Fig.~1c). 
+From north to south, the maximum daily melt rate increases 
+and the melt season duration elongates. 
+This seasonal cycle is determined mainly 
+by shortwave radiation through albedo and solar zenith angle (Fig.~S3). 
+The significant ($p<0.01$) correlation coefficient of 
+daily ablation with net shortwave radiation is 0.75, 
+while it is 0.30 with longwave radiation, 
+0.52 with sensible heat, and 0.50 with latent heat. 
+After filtering out the seasonal cycle in net shortwave radiation, 
+only day-to-day variability remains. 
+The rest of this study focuses on the energy budgets 
+and leading processes of this sub-seasonal melt variability. 
+
+\section{Sensible and Solar Heating Dominate Sub-Seasonal Ablation Variability}
+%- ww: capitalize Sub-Seasonal?
+Surface mass loss is largely controlled by the surface energy budget. 
+To pinpoint the leading physical processes responsible 
+for sub-seasonal surface ablation, 
+we first identify the dominant coeval energy fluxes.
+Surface ablation varies greatly on the sub-seasonal timescale (Fig.~1c).
+Estimates of melt contribution from 
+component energy fluxes based solely on flux magnitudes 
+will misrepresent this variability.
+Therefore, we attribute melt-causation 
+to a specific component energy flux 
+only when that flux is positive and temporally correlated 
+($r > 0.5, p < 0.05$) with melt; 
+otherwise, no causation is assumed and the attributed fraction is zero. 
+We then partition surface ablation into fractions 
+attributed to each sub-seasonal energy flux (Fig.~2). 
+Averaged over all stations, sensible heat exchange (30\%) 
+and net shortwave radiation (27\%) 
+dominate the sub-seasonal surface ablation at all stations and for all years.
+Net longwave radiation (14\%) and latent heat (12\%) are less important. 
+This dominance of sensible and solar heating is 
+due to a better temporal correlation rather than a higher magnitude. 
+The fraction of time that melt is temporally correlated with 
+sensible heat (50\%) and shortwave radiation (39\%) 
+exceed fractions for latent heat (28\%) and longwave radiation 
+(27\%; Note that the total fraction can exceed 100\% 
+because melt can simultaneously correlate with multiple energy fluxes).
+Shortwave radiation explains more melt than sensible heat 
+in southern Greenland due to the insolation 
+increase from the reduced solar zenith angle. 
+Surface albedo is not significantly (anti-)correlated 
+with melt on sub-seasonal timescales. 
+The high correlation of ablation with shortwave radiation 
+mainly stems from the surface insolation.
+
+Melt during days when none of the above four energy fluxes 
+are attributable is labeled as "None" (Fig.~2), 
+and may be due to our methodology and/or neglected energy sources, 
+i.e. rain and sub-surface energy fluxes.
+The "None" ratio rises towards the lower ablation zone in the south,
+which could be associated with rain energy fluxes.
+Liquid precipitation in the warmer regions adds to the surface energy balance, 
+yielding surface melt \cite{Fausto2016a}, 
+though without measuring the quantity and temperature of rain, 
+the energy contribution cannot be calculated. 
+We also exclude any sub-surface energy flux 
+since it is not measured at the AWS; 
+its contribution to surface melt is small at $\sim 2-3 \, W/m^{2}$
+as measured in western Greenland \cite{VandenBroeke2011, VanAs2011a}.
+
+
+\section{Sensible and Solar Heating Enhanced During Katabatic Winds}
+Surface energy budgets are affected by several physical processes 
+ranging in size from synoptic-scale (advection) \cite{Hanna2013}
+to regional scale (katabatic winds) \cite{VanDenBroeke1996} and 
+to local-scale (barrier winds) \cite{VanDenBroeke1996}. 
+Wind direction can help reveal the dominant wind forcings. 
+Warm advection usually originates from the south; 
+katabatic (i.e., gravity-driven) winds are mostly downslope; 
+barrier winds are along the ice sheet margin. 
+The Greenland ice sheet's topography,
+a fairly flat interior and steeper slopes along the periphery,
+helps generate katabatic and barrier winds.
+The persistent anticyclonic conditions around Greenland 
+since the 1990s \cite{Hanna2018} enhance southerly advection 
+in the west of Greenland \cite{Hanna2013} 
+as well as katabatic winds along the coasts \cite{Turton2019}.
+To identify the dominant physical process, 
+we estimate wind frequency, melt rate, and energy fluxes 
+at different wind-from directions (Fig.~3). 
+During the melt season, downslope winds prevail at the AWS sites. 
+Although katabatic winds are stronger and 
+more frequent in winter \cite{Gorter2014}, 
+they can prevail in summer as well \cite{Vihma2011}. 
+The two stations not dominated by downslope winds are MIT and NUK\_K, 
+both of which are located on small independent mountain glaciers 
+where the small length scales 
+do not favor generating persistent katabatic winds. 
+The average melt rate (and accumulative melt total) is larger 
+during predominantly downslope wind than for other wind directions, 
+and so are the average sensible heat flux 
+and net shortwave radiation for all AWS sites. 
+Net longwave radiation, on the other hand, 
+increases when winds blow from the south or the ocean. 
+This result indicates that downslope winds 
+enhance sub-seasonal surface melt through sensible and solar heating.
+
+The katabatic origin of these downslope winds is evident 
+from the alignment of melt rates, component fluxes, 
+and environmental conditions relative to 
+the dominant wind direction at each station (Fig.~4a and b).
+The dominant winds are fastest and driest (Fig.~4b), 
+and produce the most melt when sensible and solar heating maximize (Fig.~4a).
+Faster winds enhance vertical mixing to draw down the warmer air from above 
+and increase sensible heating 
+\cite{Parish1989, VandenBroeke2009a, KuipersMunneke2018} (Fig.~4a). 
+Drier air and clear-sky conditions 
+during katabatic winds transmit more insolation to heat the surface (Fig.~4a).
+With more sensible and solar heating, 
+surface melt accelerates during katabatic winds (Fig.~4a). 
+
+
+\section{Discussion}
+Decadal coeval records of melt rate and surface energy components 
+at $~23$ AWS in Greenland's ablation zone reveal that 
+katabatic winds dominate sub-seasonal ablation variability. 
+Previous studies show significant contributions to 
+Greenland's surface melt from warm southerly advection
+\cite{Hanna2013, Neff2014, Mattingly2018, Oltmanns2019}.
+Dry advection enhances surface melt through turbulent heat fluxes 
+while moist advection heats the surface more through 
+longwave radiation \cite{Tjernstrom2019}.
+This warm advection, also favored by the persistent 
+anti-cyclonic condition over Greenland, 
+correlates well with surface warming 
+in western Greenland over the past 20 years \cite{Hanna2013}. 
+From 2000 until the early 2010s, 
+abnormally active atmospheric rivers transported heat and moisture to 
+and increased melt in this same area \cite{Mattingly2018}. 
+On the other hand, frequent cyclones transported more moisture 
+to the southeastern coast of Greenland 
+during the same time periods \cite{Edwards-Opperman2018, Oltmanns2019}. 
+This warm and possibly moist advection helped 
+cause the record surface melt extent in 2012
+\cite{Tedesco2013, Hanna2014, Neff2014}.
+However, these large spatial-scale studies focus on 
+melt extent observed by satellites or 
+simulated by models rather than on in-situ measured ablation. 
+The former favors synoptic-scale over regional/local-scale influences. 
+Our analysis using in-situ measurements indicates that 
+southerly advection does increase longwave radiation, 
+though not as frequently as katabatic winds 
+enhance sensible and solar heating 
+during more common melt events on sub-seasonal timescales, 
+nor as strongly as net shortwave radiation on seasonal timescales.
+%- ww: strongly or strong
+
+Our study focuses on the ablation zone 
+with its characteristically steep slopes that 
+give rise to frequent katabatic winds. 
+We doubt that katabatic winds 
+dominate surface melt in the flatter interior. 
+Model simulations \cite{Vihma2011} 
+show that a slope of $5 \, m/km$, 
+which is large for the accumulation zone \cite{Helm2014}, 
+requires an elevation of at least $1500\,m$ 
+for temperature downslope to increase during katabatic winds. 
+Surface melt in the accumulation zone is, therefore, 
+more susceptible to radiative energy fluxes, 
+including longwave heating from liquid-containing clouds
+\cite{Shupe2013, Miller2015}. 
+However, surface melt in the ablation zone 
+contributes the majority of surface mass loss, 
+which is dominated by katabatic winds. 
+As glaciers in Greenland retreat, so do the steeper slopes, 
+which will always place this wind-dominated surface melt mechanism 
+at the frontline of surface ablation.
 
 %%
 
@@ -383,7 +759,16 @@
 
 
 \acknowledgments
-Enter acknowledgments, including your data availability statement, here.
+We thank the Geological Survey of Denmark and Greenland (GEUS) 
+for providing data collected 
+by the Programme for Monitoring of the Greenland Ice Sheet (PROMICE) 
+and the Greenland Analogue Project (GAP). 
+AWS data are downloaded from 
+%- ww: better wording
+the Programme for Monitoring of the Greenland Ice Sheet (PROMICE) \cite{Fausto2019}: \url{http://promice.org/PromiceDataPortal/api/download/AWS}.
+Project supported by NASA AIST 80NSSC17K0540 and DOE E3SM DE-SC0019278.
+
+% W.W. led the data analysis with input from all authors. D.V. and R.S.F. provided expertise in interpreting AWS data. M.K.L. provided expertise in interpreting wind fields. D.V. estimated the sensible and latent heat fluxed. R.S.F. estimated the annual ice ablation shown in Fig. 1a. W.W. wrote the manuscript with substantial input from C.S.Z. and D.V. All authors read and commented on the manuscript.
 
 
 %% ------------------------------------------------------------------------ %%
@@ -396,7 +781,7 @@ Enter acknowledgments, including your data availability statement, here.
 % don't specify bibliographystyle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\bibliography{ enter your bibtex bibliography filename here }
+\bibliography{library}
 
 
 
